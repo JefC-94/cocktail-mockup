@@ -30,7 +30,7 @@ function App() {
         <Container>
           <Heading as="h1" size="xl" m='5' align="center">Cocktails 4 Life</Heading>
         </Container>
-        <Container flex="1" p="0" border="0" borderColor="white" w="95%" maxW="1200px" minH='600px'>
+        <Container flex="1" p="0" border="0" borderColor="white" w="95%" maxW="1200px">
           <Flex border="0" borderColor="white">
           <Box w="75%">
             <Container border="2px" borderColor="gray.300" borderRadius="5px" maxW="" w="100%" p="1em">
@@ -95,7 +95,7 @@ function App() {
           <Box w="25%">
             <Text mb="2">Random cocktail</Text>
             <Image objectFit="cover" src={cocktailjpg} />
-            <Text fontSize="md" mt="2" mb="4" >Margarita on the rocks</Text>
+            <Text fontSize="md" mt="2" mb="4" fontWeight="600">Margarita on the rocks</Text>
             <Text fontSize="sm" >Some text</Text>
             <Text fontSize="sm" mt="2" mb="2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam malesuada, urna nec congue gravida, leo ante mollis erat, at mattis dui nibh vitae ex. Aliquam maximus lorem tristique nisi luctus volutpat. Interdum et malesuada fames ac ante ipsum primis in faucibus.</Text>
             <Text fontSize="sm" >Some text</Text>
