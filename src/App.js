@@ -70,19 +70,19 @@ function App() {
     <ChakraProvider theme={theme}>
       <Flex height="100vh" width="100vw" direction="column">
         <Container>
-          <Heading as="h1" size="xl" m='5' align="center">Cocktails 4 Life</Heading>
+          <Heading as="h1" size="xl" m='2' align="center">Cocktails 4 Life</Heading>
         </Container>
         <Container flex="1" p="0" w="95%" maxW="1200px">
           <Flex direction="row">
           <Box w={{sm: "60%", md: "80%"}} position="relative">
-            <Text backgroundColor="white" position="absolute" top="-3" left="4" pl="3" pr="3" fontSize="16px">Search 4 Cocktails</Text>
-            <Container border="2px" borderColor="gray.300" borderRadius="5px" maxW="" w="100%" p="1em">
+            <Text backgroundColor="white" position="absolute" top="-3" left="4" pl="3" pr="3" fontSize="15px">Search 4 Cocktails</Text>
+            <Container fontSize="15px" border="2px" borderColor="gray.300" borderRadius="5px" maxW="" w="100%" p="1em">
               <form>
                 <FormControl mt="1" mb="4">
                   <RadioGroup>
                     <Stack direction="row">
-                      <Radio value="1">Search by name</Radio>
-                      <Radio value="2">Search by ingredient</Radio>
+                      <Radio value="1"><Text fontSize="15px">Search by name</Text></Radio>
+                      <Radio value="2"><Text fontSize="15px">Search by ingredient</Text></Radio>
                     </Stack>
                   </RadioGroup>
                 </FormControl>
@@ -163,7 +163,7 @@ function App() {
         </Flex> 
         </Container>
         <Divider mt="4" orientation="horizontal" borderColor="gray.400" maxW="1200px" ml="auto" mr="auto" />
-        <Center p="1em">© 2021 - cocktails4life</Center>
+        <Center p=".5em">© 2021 - cocktails4life</Center>
       </Flex>
     </ChakraProvider>
   );
