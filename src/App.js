@@ -70,7 +70,7 @@ function App() {
     <ChakraProvider theme={theme}>
       <Flex height="100vh" width="100vw" direction="column">
         <Container>
-          <Heading as="h1" size="xl" m='2' align="center">Cocktails 4 Life</Heading>
+          <Heading as="h1" size="xl" m='5' align="center">Cocktails 4 Life</Heading>
         </Container>
         <Container flex="1" p="0" w="95%" maxW="1200px">
           <Flex direction="row">
