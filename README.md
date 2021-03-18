@@ -1,10 +1,13 @@
 
 [http://cocktail-mockup-jef.surge.sh] (Link to surge)
 
-Dit is een test om te kijken of de GIT PUSH tegengehouden wordt.
+# Cocktail Mockup
 
-Nog enkele toevoegingen:
+Dit is de cocktailmockup, gemaakt als oefening voor Syntra AB.
 
-Hopelijk werkt dit absoluut niet!
+Gebruikte software:
 
-Ik wil niet dat deze tekst online staat. Als dit zo is, is het mislukt.
+ - React (create-react-app)
+ - Chakra UI
+
+Coded in VS Code
